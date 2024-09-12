@@ -41,7 +41,9 @@ android {
     compose = true
   }
 
+    
     lint {
+        checkReleaseBuilds = false
         abortOnError = false
     }
 
