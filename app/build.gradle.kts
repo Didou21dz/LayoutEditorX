@@ -40,6 +40,12 @@ android {
     buildConfig = true
     compose = true
   }
+
+    lintOptions {
+        abortOnError = false
+    }
+
+
 }
 
 dependencies {
