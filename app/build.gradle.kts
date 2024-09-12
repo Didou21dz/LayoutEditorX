@@ -41,10 +41,7 @@ android {
     compose = true
   }
 
-    lintOptions {
-        abortOnError = false
-    }
-
+    
 
 }
 
